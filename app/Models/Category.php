@@ -12,4 +12,6 @@ class Category extends Model
     protected $fillable = [
         "title"
     ];
+
+    public $timestamps = false;
 }
